@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>JB Designs</title>
+		<link href="css/contact.css" rel="stylesheet" type="text/css"/>
+	
+	</head>
+
+<body>
+
+
+<h1>Contact us</h1>
+<div>
+<form name="myForm" method="post" action="#">
+   <strong><label for="name">*Name:</label></strong>
+     <input type="text" id="name" name="Name" size="40" placeholder="John Doe" required/>
+      <br/>
+      <br/>
+    <strong><label for="email">*Email:</label></strong>
+      <input type="text" id="email" name="Email" size="40" placeholder="johndoe@example.com" required/>
+      <br/>
+      <br/>
+    <strong><label for="message">*Message:</label></strong>
+      <textarea id="message" name="Message" cols="40" rows="10" placeholder="Please type your message here" required></textarea>
+      <br/>
+      <br/>
+   <strong>How did you hear about us? Select One:</strong>
+    <br/>
+    <br/>
+    <input type="radio" name="survey" id="social" value="social">
+    <label for="social">Social Media</label>
+    <br/>
+    <input type="radio" name="survey" id="search" value="search">
+    <label for="search">Web Search</label>
+    <br/>
+    <input type="radio" name="survey" id="word" value="word">
+    <label for="word">Word of Mouth</label>
+    <br/>
+    <input type="radio" name="survey" id="other" value="other">
+    <label for="other">Other (please specify):</label>
+    <input type="text" id="other" name="other"/>
+      <br/>
+      <br/>
+      <br/>
+      <input type="submit"/>
+      <input type="reset"/>
+  </form>
+  </div>
+ </body>
+
+ </html>

@@ -41,7 +41,7 @@
 body {
     font-family: poppins;
     color: #31241e;
-    font-size: 20px;
+    font-size: 15px;
     text-align: left;
     background-color: #fffced;
 }
@@ -69,24 +69,26 @@ body {
 img.profile {
     position: relative;
     float: right;
-    right:100px;
-    top: 120px;
-    width: auto;
-    height: auto;
+    width: 38%;
+    height: 38%;
+    top: 100px;
+    right: 100px;
+ 
+  
 
 }
 
 #text {
     position: relative;
     float: left;
-    top: 250px;
+    top: 150px;
     right: 150px;
     margin: auto;
 }
 
 h1 {
     font-family: montserrat;
-    font-size: 57px;
+    font-size: 52px;
     font-weight: normal;
     margin: auto;
   

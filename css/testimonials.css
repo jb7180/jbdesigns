@@ -72,7 +72,7 @@ h1 {
     font-weight: normal;
     margin: auto;
     position: relative;
-    top: 175px;
+    top: 160px;
     left: 200px;
      
   
@@ -82,6 +82,8 @@ h1 {
     padding: 20px;
    
 }
+
+
 
 #box1 {
     width: 200px;
@@ -118,4 +120,40 @@ h1 {
     float: right;
     right: 150px;
     bottom: 260px;
+  }
+
+  #box4 {
+    width: 200px;
+    height: 200px;
+    border: 3px solid #31241e;
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+    position: relative;
+    left: 150px;
+  }
+
+  #box5 {
+    width: 200px;
+    height: 200px;
+    border: 3px solid #31241e;
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+    position: relative;
+    margin: auto;
+    bottom: 225px;
+  }
+
+  #box6 {
+    width: 200px;
+    height: 200px;
+    border: 3px solid #31241e;
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+    position: relative;
+    float: right;
+    right: 150px;
+    bottom: 445px;
   }

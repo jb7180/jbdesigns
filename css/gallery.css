@@ -1,4 +1,4 @@
-/*Style sheet for index.html*/
+/*Style sheet for gallery.html*/
 
 /*FONTS*/
 @font-face {
@@ -61,18 +61,6 @@ body {
 
 }
 
-
-
-img.one {
-    display: block;
-    width: 80%;
-    height: 80%;
-    position: relative;
-    top: 45px;
-    left: 125px;  
-
-}
-
 #logo {
     position: relative;
     top: 30px;
@@ -80,25 +68,41 @@ img.one {
     float: left;
 }
 
-
-#about {
+h1 {
+    font-family: montserrat;
+    font-size: 52px;
+    color: #31241e;
+    font-weight: normal;
+    margin: auto;
+    text-align: center;
     position: relative;
-    top: 40px;
-    float: left;
-    left: 100px;
+    top: 170px;
+    left: 160px;
+
 }
 
-#images {
+#maintext {
+    text-align: center;
     position: relative;
-    float: right;
-    top: 55px;
-    
-
+    top: 175px;
 }
 
-#images img {
-    margin: 2px;
-    width: 28%;
-    height: 28%;
-  
+h4 {
+    font-family: montserrat;
+    color:#9D5977;
+    text-decoration: underline #9D5977;
+    margin:auto;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    top: 200px;
 }
+
+img.one {
+    width: 10%;
+    position: relative;
+    padding: 5px;
+    top: 200px;
+    left: 425px;
+}
+

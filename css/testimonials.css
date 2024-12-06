@@ -1,0 +1,121 @@
+/*Style sheet for testimonials.html*/
+
+@font-face {
+    font-family: montserrat;
+    src: url(fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: poppins;
+    src: url(fonts/Poppins/Poppins-Regular.ttf)
+}
+
+/*NAVIGATION STYLES*/
+.navbar {
+    font-family: montserrat;
+    font-size: 17px;
+    position: relative;
+    top: 50px;
+    right: 100px;
+    float: right;
+
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #31241e;
+    text-align: right;
+    width: 20%;
+    padding: 20px;
+    
+}
+
+.navbar a.active {
+    color: #9D5977;
+    font-size: 20px;
+}
+
+
+/*BODY STYLES*/
+
+body{
+    background-color: #fffced;
+    color: #31241e;
+    font-family: poppins;
+    font-size: 12px;
+}
+
+/*SECTION STYLES*/
+
+.line {
+    width: 90%;
+    height: 1px;
+    background-color: #31241e;
+    border: none;
+    position:relative;
+    top: 95px;
+    margin: auto;
+
+}
+
+#logo {
+    position: relative;
+    top: 30px;
+    left: 100px;
+    float: left;
+}
+
+h1 {
+    font-family: montserrat;
+    font-size: 52px;
+    color: #31241e;
+    font-weight: normal;
+    margin: auto;
+    position: relative;
+    top: 175px;
+    left: 200px;
+     
+  
+}
+
+.boxes {
+    padding: 20px;
+   
+}
+
+#box1 {
+    width: 200px;
+    height: 200px;
+    border: 3px solid #31241e;
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+    position: relative;
+    top: 190px;
+    left: 150px;
+  }
+
+  #box2 {
+    width: 200px;
+    height: 200px;
+    border: 3px solid #31241e;
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+    position: relative;
+    bottom: 40px;
+    margin: auto;
+  }
+
+  #box3 {
+    width: 200px;
+    height: 200px;
+    border: 3px solid #31241e;
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+    position: relative;
+    float: right;
+    right: 150px;
+    bottom: 260px;
+  }
